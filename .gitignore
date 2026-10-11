@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+airflow-venv/
+
+# Airflow local configuration and metadata
+airflow.cfg
+airflow.db
+airflow.db-shm
+airflow.db-wal
+airflow-webserver.pid
+logs/
+
+# Local credentials and secrets
+.env
+.env.*
+!.env.example
+simple_auth_manager_passwords.json.generated
+
+# Local backups and temporary files
+backups/
+review_scripts/
+surveillance_pipeline_backup.py
+surveillance_pipeline_before_*.py
+
+# Large source data and generated database
+data/owid_covid_data.csv
+data/nigeria_covid_raw.csv
+data/nigeria_covid_clean.csv
+data/nigeria_covid_features.csv
+data/surveillance.db
+
+# Generated analysis and modelling outputs
+# We will selectively add back report-worthy outputs later.
+data/*.csv
+data/*.png
+
+# Report-worthy outputs
+!data/surveillance_summary.csv
+!data/yearly_surveillance_summary.csv
+!data/data_quality_report.csv
+!data/rf_tuning_final.csv
+!data/rf_tuning_grid.csv
+!data/daily_new_cases.png
+!data/daily_new_deaths.png
+!data/annual_new_cases.png
