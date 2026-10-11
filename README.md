@@ -1,8 +1,8 @@
-# Group 3: Infectious-Disease Surveillance Pipeline (Nigeria COVID-19)
+Infectious-Disease Surveillance Pipeline (Nigeria COVID-19)
 
 An Apache Airflow data-engineering pipeline that extracts Nigeria's records from the Our World in Data (OWID) COVID-19 dataset, validates and cleans them, loads them into SQLite, produces surveillance summaries, and evaluates next-day case forecasting with time-series cross-validation.
 
-**Authors:** <add group member names here>
+
 
 ## Pipeline
 
